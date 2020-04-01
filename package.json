@@ -5,6 +5,10 @@
   "repository": "https://github.com/kallelrm/fakebook.git",
   "author": "kallelrm <kallelr@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
